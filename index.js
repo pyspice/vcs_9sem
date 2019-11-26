@@ -1,5 +1,5 @@
 function gcd(x, y) {
-    while (x) {
+    while (y) {
         var tmp = x;
         x = y;
         y = tmp % y;
